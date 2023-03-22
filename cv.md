@@ -1,6 +1,6 @@
 ![Avatar](https://i.ibb.co/QPYVzxD/avatar-profile.png)
 * Nikita Ascari
-* n.ascari.web@gmail.com / nascari(@nik-ascari)
+* e-mail: n.ascari.web@gmail.com / discord: nascari(@nik-ascari)
 * I would like to improve my knowledge in frontend web-development. Was a co-owner of an internet company and now want to know more technical aspects, which will help to work in this industry.
 * I am rather good at HTML, CSS (SCSS), JavaScript, Webpack.
 Code example:
