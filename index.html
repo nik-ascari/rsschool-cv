@@ -10,9 +10,9 @@
 
 </head>
 <body class="body">
-    <header class="header">
+    <header class="header" id="top-anchor-link">
 
-<nav class="header__nav nav"><ul class="header__list"><li class="header__list-item"><a href="">TOP</a></li><li class="header__list-item"><a href="">TEXT</a></li><li class="header__list-item"><a href="">FOOTER</a></li></ul></nav>
+<nav class="header__nav nav"><ul class="header__list"><li class="header__list-item"><a class="header__link" href="#top-anchor-link">TOP</a></li><li class="header__list-item"><a href="#text-anchor-link" class="header__link">TEXT</a></li><li class="header__list-item"><a href="#footer-anchor-link" class="header__link">FOOTER</a></li></ul></nav>
 
 <div class="header__photo-block">
     <img src="https://i.ibb.co/QPYVzxD/avatar-profile.png" alt="N.Ascari">
@@ -22,14 +22,36 @@
 
     </header>
 
-<main>
+<main class="main" id="text-anchor-link">
 
-<section><div></div>   </section>
+<section> <h2>Info:</h2>
+    <p>I would like to improve my knowledge in frontend web-development. Was a co-owner of an internet company and now want to know more technical aspects, which will help to work in that industry.</p>
+    <p>I have a higher education in Economics. English level - B2</p>
+<p>I am rather good at: 
+    <ul>
+    <li>HTML</li> <li>CSS (SCSS)</li> <li>JavaScript</li> <li>Webpack</li>
+    </ul>
+    </p>
+    <p>Code example:
+
+<pre>    multiply = function (a, b) {
+    return a * b;
+} </pre>
+
+</p>
+<p>Project example: <a href="https://nik-ascari.github.io/cssBayan/cssBayan/index.html">[CSS BAYAN]</a></p>
+    </section>
+<section>   <h2>Contacts:</h2>
+    <ul><li>Discord: nascari(@nik-ascari)</li>
+        <li>e-mail: n.ascari.web@gmail.com</li>
+    </ul>
+
+</section>
 
 </main>
 
 
-<footer class="footer">
+<footer class="footer" id="footer-anchor-link">
 
 <section class="footer__block">
     <div class="footer__div-img"><img class="footer__img" src="https://rs.school/images/rs_school_js.svg" alt="RS LOGO"></div>
