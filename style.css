@@ -9,8 +9,9 @@ html { font-size: 62.5%; }
 .header__list {display: flex;flex-direction: row;list-style-type: none;margin:0;padding:0;}
 .header__list-item:not(:first-child) {margin-left:2rem;}
 
+.header__photo {max-width:41.6rem;}
 .header__photo-block {text-align: center;}
 
-.footer__img {max-width:10rem;}
+.footer__img {max-width:10rem;border:0;}
 
 .footer__block {flex-direction: column;text-align:center;}
